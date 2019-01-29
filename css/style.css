@@ -1,0 +1,225 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  width: 375px;
+  height: 667px;
+  position: fixed;
+  background-image: url("/images/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px){
+  .container {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 991px){
+  .container {
+    font-size: 1.8em;
+  }
+}
+
+nav {
+  padding: 2%;
+  position: fixed;
+  width: 100%;
+  height: 7.19%;
+  background-color: #F8F8F8;
+}
+
+.nav-text {
+  font-size: 1.7em;
+  color: #3537E6;
+  font-weight: 600;
+  white-space: nowrap;
+  display: inline-block;
+  position: fixed;
+  top: 30%;
+  left: 14%;
+}
+
+@media screen and (min-width: 575px){
+  .nav-text {
+    top: 27%;
+    left: 10%;
+  }
+}
+@media screen and (min-width: 991px){
+  .nav-text {
+    top: 29%;
+    left: 9%;
+  }
+}
+
+.search-box {
+  width: 77%;
+  height: 5.4%;
+  background-color: #EEEEF7;
+  position: fixed;
+  top: 3.7%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 575px){
+  .search-box {
+    width: 80%;
+    top: 3.7%;
+  }
+}
+
+.location {
+  top: 20%;
+  left: 2%;
+  width: 22px;
+  position: fixed;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 575px){
+  .location {
+    width: 32px;
+    top: 21%;
+  }
+}
+@media screen and (min-width: 991px){
+  .location {
+    width: 36px;
+    top: 26%;
+  }
+}
+
+.arrow-back {
+  float:left;
+  color: #3537E6;
+  font-size: 1.1em;
+  top: 2.2%;
+  position: fixed;
+  display: inline-block;
+}
+
+.menu {
+  float:right;
+  color: #3537E6;
+  font-size: 1.1em;
+  top: 2.2%;
+  padding-left: 89%;
+  position: fixed;
+  display: inline-block;
+}
+
+@media screen and (min-width: 575px){
+  .arrow-back, .menu {
+    top: 2.1%;
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 991px){
+  .arrow-back, .menu {
+    top: 2.3%;
+    font-size: 1.3em;
+  }
+}
+
+.search-results {
+  width: 100%;
+  top: 40%;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 400px;
+}
+
+@media screen and (min-width: 575px){
+  .search-results {
+  top: 50%;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 510px;
+  }
+}
+@media screen and (min-width: 991px){
+  .search-results {
+  top: 50%;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 700px;
+  }
+}
+
+.arrow-down {
+    width: 100%;
+    color: #6A6CD9;
+    font-size: 1.4em;
+    background-color: #3C3EDB;
+    padding-left: 49%;
+    display: inline-block;
+    position: fixed;
+}
+
+.bus-line {
+  display: inline-block;
+  background-color: #3C3EDB;
+  border-bottom: 1px solid #6A6CD9;
+  padding: 6%;
+  width: 100%;
+}
+
+.destination {
+    display: inline-block;
+    white-space: nowrap;
+    width: 90%;
+    padding-left: 10px;
+    transform: translate(0%, 5%);
+}
+
+.destination h2 {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #EEEEF7;
+    float: right;
+    transform: translate(0%, -100%);
+}
+
+.arrow-right {
+  display: inline-block;
+  float: right;
+  font-size: 1em;
+  color: #6A6CD9;
+  padding: 10px 5px 10px 0;
+  transform: translate(0%, 0%);
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 8px;
+}
