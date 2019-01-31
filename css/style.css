@@ -234,42 +234,25 @@ nav {
   }
 }
 
-.oos {
-    display: inline-block;
-    text-align: left;
-    width: 30%;
-    transform: translate(4%, 0%);
-}
-
-@media screen and (min-width: 575px){
-  .oos {
-    transform: translate(20%, 0%);
-  }
-}
-@media screen and (min-width: 991px){
-  .oos {
-    transform: translate(45%, 0%);
-  }
-}
-
 .signal {
-  top: -27%;
-  left: -15%;
-  width: 13px;
+  top: -20%;
+  left: 53%;
+  width: 8px;
   position: fixed;
-  opacity: .7;
+  opacity: .5;
+  transform: rotate(-43deg);
 }
 
 @media screen and (min-width: 575px){
   .signal {
-    left: -11%;
-    width: 20px;
+    top: -25%;
+    left: 45%;
+    width: 17px;
   }
 }
   @media screen and (min-width: 991px){
     .signal {
-      top: -33%;
-      width: 25px;
+      left: 34%;
     }
 }
 
